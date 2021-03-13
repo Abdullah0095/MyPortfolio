@@ -1,3 +1,26 @@
 #navbar{
-    margin-left: 400px;
+    margin-left: 350px;
+    position: fixed;
+}
+.home-page-detailed{
+    margin-left: 200px;
+    margin-top: 100px;
+    height: 500px;
+}
+
+/* skilled part  */
+#skills{
+    height: 600px;
+}
+
+/* certification */
+#certificate{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    
+}
+#certificate img{
+    width: 70%;
+    height: 500px;
 }
