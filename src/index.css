@@ -18,6 +18,7 @@ code {
 } */
 .hello{
   font-weight: 500;
+  margin-bottom: 200px;
 }
 .colored-letter{
   color: rgb(6, 122, 6);
@@ -25,6 +26,7 @@ code {
 .h-text{
   font-weight: 700;
   font-size: 50px;
+  
 }
 .p-text{
   font-size: 18px;
@@ -38,8 +40,10 @@ code {
   background-position: top center;
   border-bottom: 5px solid #000;
 } */
-.header-content{
-  /* margin-top: 100px; */
+.header-text{
+  margin-top: 14%;
+  margin-left: 60px;
+  color: rgb(247, 185, 185);
 }
 .nav-link{
   color: green;
@@ -51,7 +55,7 @@ code {
   margin-top: 20px;
   font-weight: 600;
   padding: 10px 50px;
-  background-color: green;
+  
   color: white;
 }
 .work-btn:hover{
@@ -59,12 +63,13 @@ code {
   background: none;
   color: rgb(20, 82, 20);
   text-decoration: none;
+  background-color: #111b07;
 }
 .download{
   border: 2px solid green;
   padding: 11px 18px;
   margin-right: 10px;
-  color: rgb(6, 90, 6);
+  color: rgb(169, 190, 169);
   font-weight: 500;
   margin-top: 1px;
 }
@@ -86,12 +91,12 @@ code {
   padding: 8px 25px;
 }
 .resume-btn:hover{
-  background-color: #4f9c2d;
-  color: #fff;
+  background-color: #333d2e;
+  color: rgb(61, 42, 42);
 }
 .text-brand{
   font-weight: 700;
-  margin: 90px 0 70px;
+  margin: 0px 0 40px;
   text-align: center;
 }
 .text-brand u{
@@ -191,7 +196,7 @@ code {
   border-radius: 50%;
 }
 .about-body{
-  
+  margin-top: -50px;
 }
 .contact{
   background-color: #000;
@@ -224,21 +229,32 @@ code {
   width: 85%;
   padding: 5px;
 }
-.address{
 
-}
 .about-me{
-  background-color: #baeca4;
+  background-color: #011313;
+  
 }
 .about-text{
-  margin-top: -1px;
+  margin-top: -10px;
 }
 .address{
-  background-image: url(./images/about.png);
+  /* background-image: url(./images/about.png); */
   background-color: rgb(0, 0, 0);
-  background-repeat: no-repeat;
-  background-position: bottom center;
+  /* background-repeat: no-repeat;
+  background-position: bottom center; */
+  
+ 
 }
 .address-text{
-  margin-top: 100px;
+  margin-top: 250px;
+}
+#certificate-pic{
+  height: 450px;
+  width: 700px;
+  margin-top: 30px;
+}
+.certificate-bg{
+  margin-top: 80px;
+  text-align: center;
+  color: white;
 }

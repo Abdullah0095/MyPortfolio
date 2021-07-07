@@ -187,9 +187,6 @@ const allProjectData = [
         },
         {
             item: "HTML"
-        },
-        {
-            item: "Css"
         }
     ],
     features: [
@@ -243,7 +240,7 @@ const allProjectData = [
 const ProjectPage = () => {
 
     return (
-        <div className="container-fluid px-5 mt-n4 pb-5">
+        <div className="container-fluid px-5 mt-4 pb-5">
             <h2 className="text-brand mb-5"><u>Projects done by me</u></h2>
             <div className="row">
                 {

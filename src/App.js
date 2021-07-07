@@ -14,6 +14,7 @@ import Menubar from './Components/Home/Menubar/Menubar';
 import Blogs from './Components/Home/Blogs/Blogs';
 import ProjectPage from './Components/ProjectPage/ProjectPage';
 import AboutMePage from './Components/AboutMePage/AboutMePage';
+import Certificate from './Components/Certificate/Certificate';
 
 
 function App() {
@@ -41,6 +42,9 @@ function App() {
       </Route>
       <Route path="/blogs">
         <Blogs />
+      </Route>
+      <Route path="/certificate">
+        <Certificate />
       </Route>
     </Switch>
   </Router>

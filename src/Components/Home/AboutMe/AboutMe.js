@@ -21,6 +21,7 @@ const AboutMe = () => {
                 <div className="col-md-6">
                     <div className="text-right mt-5">
                         <img className="img-fluid ml-5 mt-5" src={aboutMe} alt="" />
+                        
                     </div>
                 </div>
             </div>
